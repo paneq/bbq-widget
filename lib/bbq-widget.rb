@@ -1,7 +1,9 @@
 require "bbq-widget/version"
 
 module Bbq
+
   module Widget
-    # Your code goes here...
+    autoload :WithinCssId, 'bbq-widget/within_css_id'
   end
+
 end
