@@ -48,6 +48,22 @@ module Bbq
         end
       end
 
+      def has?(*params)
+        see?(*params)
+      end
+
+      def has!(*params)
+        see!(*params)
+      end
+
+      def lacks?(*params)
+        not_see?(*params)
+      end
+
+      def lacks!(*params)
+        not_see!(*params)
+      end
+
     end
 
   end
