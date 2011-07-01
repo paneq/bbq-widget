@@ -13,7 +13,7 @@ module Bbq
       # if it is user or widget
       def initialize(parent, css_id)
         @parent = parent
-        self.css_id = "##{@css_id}"
+        self.css_id = "##{css_id}"
         return self
       end
 
